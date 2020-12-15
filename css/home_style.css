@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Josefin+Sans&display=swap');
+
+/* Default Fonts */
+html {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+body {
+    margin: 0px;
+}
+
+p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* ******************************************************************************** */
+/* Banner at the top of the page */
+
+#banner {
+    background-color: #FCD5CE;
+    display: flex;
+}
+/* ******************************************************************************** */
+/* Navigation */
+
+#home_nav {
+    padding-top: 2%;
+    margin-bottom: 2%;
+}
+
+li {
+    list-style-type: none;
+    margin-top: 20%;
+    font-size: 14pt;
+    font-style: italic;
+}
+
+#home_nav a {
+    text-decoration: none;
+    color: black;
+}
+
+#home_nav a:hover {
+    color: #F8EDEB;
+}
+/* ******************************************************************************** */
+/* Title */
+
+#home_title {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    font-size: 48pt;
+    margin-bottom: 0px;
+    margin-top: 30%;
+    text-transform: uppercase;
+}
+
+#home_title h4 {
+    margin-top: 0px;
+    text-align: right;
+}
+/* ******************************************************************************** */
+/* Project Images */
+
+#home_images {
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.row {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.projects {
+    margin-left: 20%;
+}
+
+.row:last-child {
+    margin-top: 20%;
+}
+
+.project_image {
+    border-radius: 100%;
+}
+
+#home_images img:hover {
+    opacity: 0.5;
+}
+
+#home_images h3 {
+    font-family: 'Great Vibes', cursive;
+    font-size: 36pt;
+    transform: rotate(-20deg) translate(-50px, 40px);
+}
+
+
+
